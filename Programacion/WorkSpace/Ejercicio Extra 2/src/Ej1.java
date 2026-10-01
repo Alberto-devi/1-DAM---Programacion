@@ -1,4 +1,3 @@
-
 public class Ej1 {
 	public static void main(String[] args) {
 		int a = 5;
@@ -8,7 +7,6 @@ public class Ej1 {
 		
 		for(int i = 0; i < a - 1; i++) {
 			for(l = 1; l <= (i*2+1); l+= 2) {
-				
 				
 			}
 			while(l >= 0) {

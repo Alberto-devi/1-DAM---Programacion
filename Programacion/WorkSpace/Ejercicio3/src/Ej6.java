@@ -1,6 +1,6 @@
 public class Ej6 {
     public static void main(String[] args) {
-        int a = 1;
+        int a = 257;
         boolean esPrimo = true;
         
         if (a <= 1) {
