@@ -1,0 +1,31 @@
+Tenemos 2 clases, "Echo" y "EchoTestDrive"
+
+- Echo:
+  Esta clase actua como plantilla para crear objetos el cual tiene 1 variable entera llamada count inicializada en 0 y un metodo el cual al ejecutarse imprime por consola "helloooo..."
+
+- EchoTestDrive
+  Esta es la clase que contien el main, es decir aqui es donde vamos a ejecutar el programa.
+  Una vez que comience el main para empezar se crean 2 objetos "Echo" llamados e1 y e2.
+  Se inicializa una variable x en 0.
+  Se inicia un bucle el cual mientras x sea menor que 4 se ejecuta.
+  Al inicio del bucle se ejecuta el metodo "hello()" del objeto e1.
+  Despues a e1 se le suma 1 a su valor.
+  Se abre una condiciona en la que si x es igual a 3 se le suma 1 a e2.
+  Se abre otra condicion en la que si x es mayor que 0, se le sume el valor de e1 a e2.
+  Se le suma 1 a x que es el iterador.
+  Y por ultimo se imprime el valor count de e2.
+
+  Iteraciones del bucle
+
+  - 0 -
+    e1 = 1
+    e2 = 0
+  - 1 -
+    e1 = 2
+    e2 = 2
+  - 2 -
+    e1 = 3
+    e2 = 5
+  - 3 -
+    e1 = 4
+    e2 = 10
